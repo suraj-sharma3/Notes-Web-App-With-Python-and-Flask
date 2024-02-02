@@ -13,3 +13,9 @@ if __name__ == '__main__': # this means only if we run the main.py file directly
 
 # if we don't add the code to be executed within the clock of this if statement "if __name__ == '__main__':", the code would run everytime we import the main.py file in some other file even if we don't execute the main.py file
 
+# all the html documents would be stored inside the templates folder within the webapp folder, these html documents are called as templates
+
+# we render these html templates from our routes
+
+# there's a special templating language named Jinja that allows us to write a little bit of python within the HTML templates
+
